@@ -29,24 +29,24 @@ Projeto_Web_HTML5/
 
 ## Tags Utilizadas
 
-- **<h1> até <h6>:** Títulos e subtítulos.
-- **<p>:** Parágrafos de texto.
-- **<mark>:** Destaque de texto.
-- **<small>:** Texto menor ou observações.
-- **<i>:** Ênfase leve em texto.
-- **<u>:** Texto sublinhado.
-- **<strong>:** Ênfase forte em texto.
-- **<ol>:** Listas ordenadas.
-- **<ul>:** Listas não ordenadas.
-- **<li>:** Itens de lista.
-- **<a>:** Links de navegação.
-- **<hr>:** Separadores de conteúdo.
-- **<sub>:** Texto subscrito.
-- **<sup>:** Texto sobrescrito.
-- **<blockquote>:** Citações.
-- **<font>:** Personalização de fontes (obsoleto em versões modernas).
-- **<del>:** Texto deletado.
-- **<abbr>:** Abreviações.
+- **h1 até h6:** Títulos e subtítulos.
+- **p:** Parágrafos de texto.
+- **mark:** Destaque de texto.
+- **small:** Texto menor ou observações.
+- **i:** Ênfase leve em texto.
+- **u:** Texto sublinhado.
+- **strong:** Ênfase forte em texto.
+- **ol:** Listas ordenadas.
+- **ul:** Listas não ordenadas.
+- **li:** Itens de lista.
+- **a:** Links de navegação.
+- **hr:** Separadores de conteúdo.
+- **sub:** Texto subscrito.
+- **sup:** Texto sobrescrito.
+- **blockquote:** Citações.
+- **font:** Personalização de fontes (obsoleto em versões modernas).
+- **del:** Texto deletado.
+- **abbr:** Abreviações.
 
 ## Funcionalidades
 
