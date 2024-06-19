@@ -64,3 +64,8 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.logo-img {
+    width: 50px;
+    height: auto;
+}
