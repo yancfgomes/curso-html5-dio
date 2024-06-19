@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -75,4 +76,26 @@ header {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+.main-img {
+    width: 30%;
+    height: auto;
+    margin-right: 20px;
+    
+}
+
+.content {
+    display: flex;
+  
+}
+
+.content-txt{
+    width: 70%;
+}
+
+.gps {
+    padding-left: 400px;
+    width: 600px;
+    height: 400px;
 }
