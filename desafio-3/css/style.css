@@ -1,9 +1,8 @@
+/* Reset básico */
 body, html {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #ffffff;
-    color: #222222;
 }
 
 ul {
@@ -12,7 +11,7 @@ ul {
 }
 
 a {
-    color: #0645ad;
+    color: blue;
     text-decoration: none;
 }
 
@@ -20,20 +19,27 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Estilo para cabeçalho */
 header {
     padding: 15px;
     background-color: #f9f9fb;
-    border-bottom: solid 1px #a2a9b1;
+    border-bottom: 1px solid #cdcdcd;
     text-align: center;
 }
 
-.bar {
-    background-color: #f9f9fb;
-    padding: 15px;
-    border-top: solid 1px #a2a9b1;
-    border-bottom: solid 1px #a2a9b1;
+header img {
+    width: 100px;
 }
 
+/* Estilo para barra de navegação */
+.navigation-bar {
+    background-color: #f9f9fb;
+    padding: 15px;
+    border-top: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+/* Estilo para o conteúdo principal */
 main {
     max-width: 1440px;
     margin: auto;
@@ -44,43 +50,34 @@ main {
     padding: 1rem;
 }
 
+/* Estilo para sidebar */
 .sidebar {
     grid-area: sidebar;
-    border-right: solid 1px #a2a9b1;
+    border-right: 1px solid #cdcdcd;
 }
 
+/* Estilo para conteúdo principal */
 .main-content {
     grid-area: main-content;
 }
 
+/* Estilo para âncoras do artigo */
 .anchors {
     grid-area: anchors;
-    border-left: solid 1px #a2a9b1;
+    border-left: 1px solid #cdcdcd;
     padding-left: 15px;
 }
 
+/* Estilo para rodapé */
 footer {
     min-height: 100px;
-    border-top: solid 1px #a2a9b1;
+    border-top: 1px solid #cdcdcd;
     padding: 15px;
     text-align: center;
     background-color: #f9f9fb;
 }
 
+/* Estilo para figuras */
 figure {
     text-align: center;
-}
-
-@media (max-width: 768px) {
-    main {
-        grid-template-areas:
-            "main-content"
-            "sidebar"
-            "anchors";
-        grid-template-columns: 1fr;
-        grid-gap: 1rem;
-    }
-    .sidebar, .anchors {
-        border: none;
-    }
 }
