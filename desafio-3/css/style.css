@@ -1,0 +1,83 @@
+/* Reset básico */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para cabeçalho */
+header {
+    padding: 15px;
+    background-color: #f9f9fb;
+    border-bottom: 1px solid #cdcdcd;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+}
+
+/* Estilo para barra de navegação */
+.navigation-bar {
+    background-color: #f9f9fb;
+    padding: 15px;
+    border-top: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "sidebar main-content anchors";
+    grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
+    grid-gap: 3rem;
+    padding: 1rem;
+}
+
+/* Estilo para sidebar */
+.sidebar {
+    grid-area: sidebar;
+    border-right: 1px solid #cdcdcd;
+}
+
+/* Estilo para conteúdo principal */
+.main-content {
+    grid-area: main-content;
+}
+
+/* Estilo para âncoras do artigo */
+.anchors {
+    grid-area: anchors;
+    border-left: 1px solid #cdcdcd;
+    padding-left: 15px;
+}
+
+/* Estilo para rodapé */
+footer {
+    min-height: 100px;
+    border-top: 1px solid #cdcdcd;
+    padding: 15px;
+    text-align: center;
+    background-color: #f9f9fb;
+}
+
+/* Estilo para figuras */
+figure {
+    text-align: center;
+}
